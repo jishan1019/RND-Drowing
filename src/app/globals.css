@@ -25,3 +25,34 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+body {
+  overflow-x: hidden !important;
+}
+
+/* Editor Height */
+.ql-editor {
+  min-height: 200px !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Reset Scrollbar */
+::-webkit-scrollbar {
+  @apply w-[0.3rem] bg-[#fff] rounded-[0.6rem];
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-[#6d6c6c] rounded-[0.6rem] hover:bg-[#313131] duration-500;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px hsla(var(--primary)), 0 0 5px hsla(var(--primary)) !important;
+}
