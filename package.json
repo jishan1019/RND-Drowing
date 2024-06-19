@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "browser-image-compression": "^2.0.2",
     "next": "14.0.3",
     "nextjs-toploader": "^1.6.12",
     "react": "^18",
